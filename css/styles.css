@@ -3,7 +3,7 @@
 body {
     font-family: 'Outfit', sans-serif;
     background-color: #D5E1EF;
-    height: 100vh;
+    height: calc(100vh - 2rem);
 }
 
 .main {
@@ -16,9 +16,12 @@ body {
 
 .container {
     margin: 0 auto 2rem auto;
-    padding: 1rem;
-    max-width: 300px;    
-    border-radius: 0.6rem;    
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.6rem;
+    align-items: center;
+    padding: 1rem;    
     background-color: #fff;
     box-shadow: -1rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
