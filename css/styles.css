@@ -3,17 +3,22 @@
 body {
     font-family: 'Outfit', sans-serif;
     background-color: #D5E1EF;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
 }
 
 .container {
-    margin: 2rem auto;
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 0.6rem;
-    align-items: center;    
-    align-self: center;    
-    padding: 1rem;    
+    margin: 0 auto 2rem auto;
+    padding: 1rem;
+    max-width: 300px;    
+    border-radius: 0.6rem;    
     background-color: #fff;
     box-shadow: -1rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
